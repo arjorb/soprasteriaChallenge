@@ -183,6 +183,7 @@ a:hover {
   width: 100%;
   height: 600px;
   position: relative;
+  margin: 4rem 0;
 }
 
 .banner__info img {
@@ -207,4 +208,36 @@ a:hover {
 .banner__info__info img {
   width: 40px;
   height: 40px;
+}
+
+.banner__2__info {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  width: 600px;
+  padding: 20px 40px;
+  font-size: 20px;
+}
+.banner__2__info h4 {
+  font-size: 28px;
+}
+.banner__2__info p {
+  margin: 20px 0;
+  line-height: 30px;
+}
+.banner__2__info button {
+  margin-bottom: 4rem;
+  padding: 15px 40px;
+  background-color: #a60726;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.banner__2__info button:hover {
+  background-color: transparent;
+  border: 1px solid #a60726;
+  color: #a60726;
 }
