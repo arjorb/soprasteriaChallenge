@@ -241,3 +241,14 @@ a:hover {
   border: 1px solid #a60726;
   color: #a60726;
 }
+
+/* Financial Report */
+
+.report {
+  width: 80%;
+  margin: 5rem auto;
+}
+.report h2 {
+  font-size: 34px;
+  margin: 2rem 0;
+}
