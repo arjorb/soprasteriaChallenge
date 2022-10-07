@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header and Hero Section */
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url('./assets/heroImage.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.heade__upper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.heade__upper div a {
+  padding-right: 20px;
+}
+
+.navbar {
+  width: 80%;
+  height: 70px;
+  margin: 5px auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.navItem ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navItem ul li a {
+  color: #000;
+}
+.searchItem {
+  margin-left: 20px;
+}
+
+.header__Information {
+  width: 80%;
+  margin: 130px auto;
+  font-size: 34px;
+}
+.header__Information h3 {
+  width: 800px;
+  color: white;
+}
+
+.header__Information button {
+  margin: 30px 0;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background-color: #a60726;
+  color: white;
+  cursor: pointer;
+  transition: background-color 100ms;
+}
+
+.header__Information button:hover {
+  background-color: #fff;
+  border: 1px solid #a60726;
+  color: #000;
+}
+
+/* what's new */
+
+.news {
+  width: 80%;
+  margin: 20px auto;
+  font-size: 24px;
+  font-weight: none;
+}
+
+.news__upper {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__upper__left {
+  width: 500px;
+  height: 400px;
+}
+
+.news__upper__right {
+  width: 500px;
+}
+.news__upper__item img {
+  width: 100%;
+  height: 100%;
+}
