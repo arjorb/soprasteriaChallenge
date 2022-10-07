@@ -96,6 +96,7 @@ a:hover {
 
 /* what's new */
 
+/* news upper */
 .news {
   width: 80%;
   margin: 20px auto;
@@ -106,18 +107,69 @@ a:hover {
 .news__upper {
   margin: 1.5rem 0;
   display: flex;
-  justify-content: space-between;
+  gap: 4rem;
 }
 
 .news__upper__left {
-  width: 500px;
-  height: 400px;
+  width: 480px;
+  height: 380px;
+}
+.news__upper__left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .news__upper__right {
   width: 500px;
 }
-.news__upper__item img {
+
+.news__upper__right h3 {
+  font-size: 30px;
+}
+
+.news__upper__right p {
+  margin: 1rem 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.news__upper__right button {
+  padding: 15px 30px;
+  border: 1px solid #000;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 100ms;
+}
+
+.news__upper__right button:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* news lower */
+
+.row {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem 0;
+}
+
+.news__col {
+  flex-basis: 33%;
+}
+
+.news__col img {
   width: 100%;
-  height: 100%;
+  object-fit: cover;
+}
+.news__col h4 {
+  font-size: 22px;
+}
+.news__col p {
+  font-size: 17px;
+  margin: 15px 0;
+  line-height: 30px;
 }
